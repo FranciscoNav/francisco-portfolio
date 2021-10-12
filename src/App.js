@@ -1,12 +1,14 @@
-import './App.css';
+// import './App.css';
+import './App.scss';
+
 
 function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
-      <h1>Test Below</h1>
+      <div className="side-bar"></div>
+      <div className="main-content"></div>
+      <h1>is it working</h1>
     </div>
   );
 }

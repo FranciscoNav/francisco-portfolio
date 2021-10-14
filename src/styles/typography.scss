@@ -1,0 +1,32 @@
+.home-page{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.hero-text{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    span{
+        color: rgb(108, 116, 124);
+    }
+}
+
+.homepage-subtext{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+    .icon-link{
+        .brand-icon{
+
+        }
+    }
+}

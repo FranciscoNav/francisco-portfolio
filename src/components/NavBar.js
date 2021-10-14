@@ -12,19 +12,19 @@ function NavBar() {
                 </div>
                 <ul className="nav-iteams"> 
                     <li className="nav-iteam">
-                        <NavLink to='/' exact activeClassName='active'>Home</NavLink>
+                        <NavLink to='/' exact activeClassName='nav-active'>Home</NavLink>
                     </li>
                     <li className="nav-iteam">
-                        <NavLink to='/about' exact activeClassName='active'>About</NavLink>
+                        <NavLink to='/about' exact activeClassName='nav-active'>About</NavLink>
                     </li>
                     <li className="nav-iteam">
-                        <NavLink to='/portfolio' exact activeClassName='active'>Portfolio</NavLink>
+                        <NavLink to='/portfolio' exact activeClassName='nav-active'>Portfolio</NavLink>
                     </li>
                     <li className="nav-iteam">
-                        <NavLink to='/blogs' exact activeClassName='active'>Blog</NavLink>
+                        <NavLink to='/blogs' exact activeClassName='nav-active'>Blog</NavLink>
                     </li>
                     <li className="nav-iteam">
-                        <NavLink to='/contact' exact activeClassName='active'>Conact</NavLink>    
+                        <NavLink to='/contact' exact activeClassName='nav-active'>Conact</NavLink>    
                     </li>
                 </ul>
                 <footer className="footer">

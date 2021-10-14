@@ -23,6 +23,7 @@
         }
 
         .nav-iteams{
+            width: 100%;
             .nav-iteam{
                 list-style: none;   
                 text-align: center;
@@ -32,7 +33,27 @@
                 text-decoration: none;
                 font-size: inherit;
                 color: inherit;
-                
+                display: block;
+                padding: .5rem 0;
+                position: relative;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: .4rem;
+                    height: 100%;
+                    background-color: #70acdd44;
+                    transform-origin: bottom;
+                    transform: scale(0);
+                    overflow-x: hidden;
+                    // transition: transform .2s .4s, width .2s;
+                }
+                &:hover::before{
+                    width: 100%;
+                    transform: scale(1);
+
+                }
             }
         }
 
@@ -47,4 +68,8 @@
         }
 
     }
+}
+
+.nav-active{
+    background-color: #70acdd;
 }

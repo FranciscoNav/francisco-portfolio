@@ -3,8 +3,13 @@ import React from 'react'
 function HomePage() {
 
     return (
-        <div>
-            <h1>HomePage</h1>
+        <div className="home-page">
+            <header className='hero'>
+                <h1 className='hero-text'>
+                    Hi. I am
+                    <span> Francisco Naveira</span>
+                </h1>
+            </header>
         </div>
     )
 }

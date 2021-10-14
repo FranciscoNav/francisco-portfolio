@@ -1,0 +1,50 @@
+.navBar{
+    height: 100vh;
+
+    .nav{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+        .profile{
+            width: 100%;
+            text-align: center;
+            margin-top: 1rem;
+            border-bottom: 1px solid #70acdd;
+     
+            img{
+                width: 70%;
+                border-radius: 100%;
+                border: 5px solid #70acdd;
+                margin-bottom: 1rem;
+            } 
+        }
+
+        .nav-iteams{
+            .nav-iteam{
+                list-style: none;   
+                text-align: center;
+            }
+
+            a{
+                text-decoration: none;
+                font-size: inherit;
+                color: inherit;
+                
+            }
+        }
+
+        .footer{
+            width: 100%;
+            border-top: 1px solid #70acdd;
+
+            p{
+                text-align: center;
+                padding: 1.2rem 0;
+            }
+        }
+
+    }
+}

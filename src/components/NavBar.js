@@ -4,26 +4,33 @@ import {NavLink, link} from "react-router-dom";
 
 function NavBar() {
 
-
     return (
-        <div className="NavBar">
-            <div className="profilePic">
-                {/* <img  src={CiscoPic} alt='' /> */}
-            </div>
+        <div className="navBar">
             <nav className="nav">
-                <ul className="Nav-iteams"> 
-                    <li className="Nav-iteams">
-                        <NavLink to='/' activeClassName='activeNav'>Home</NavLink>
-                        <NavLink to='/about' activeClassName='activeNav'>About</NavLink>
-                        <NavLink to='/portfolio' activeClassName='activeNav'>Portfolio</NavLink>
-                        <NavLink to='/blogs' activeClassName='activeNav'>Blog</NavLink>
-                        <NavLink to='/contact' activeClassName='activeNav'>Conact</NavLink>
+                <div className="profile">
+                    <img  src={CiscoPic} alt='' />
+                </div>
+                <ul className="nav-iteams"> 
+                    <li className="nav-iteam">
+                        <NavLink to='/' exact activeClassName='active'>Home</NavLink>
+                    </li>
+                    <li className="nav-iteam">
+                        <NavLink to='/about' exact activeClassName='active'>About</NavLink>
+                    </li>
+                    <li className="nav-iteam">
+                        <NavLink to='/portfolio' exact activeClassName='active'>Portfolio</NavLink>
+                    </li>
+                    <li className="nav-iteam">
+                        <NavLink to='/blogs' exact activeClassName='active'>Blog</NavLink>
+                    </li>
+                    <li className="nav-iteam">
+                        <NavLink to='/contact' exact activeClassName='active'>Conact</NavLink>    
                     </li>
                 </ul>
+                <footer className="footer">
+                    <p>Francisco Naveira</p>
+                </footer>
             </nav>
-            <footer className="footer">
-                <p>Francisco Naveira</p>
-            </footer>
         </div>
     )
 }

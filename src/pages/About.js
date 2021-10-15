@@ -5,8 +5,7 @@ function About() {
 
     return (
         <div className="about-page">
-            <h1>About Page</h1>
-            <Title/>
+            <Title title={'About Me-test'} span={'About Me-test'}/>
         </div>
     )
 }

@@ -1,0 +1,38 @@
+.title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    padding-bottom: 1rem;
+    letter-spacing: 3px;
+
+    // Below is for the skill bar
+    &::before{
+        content: "";
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        background-color: rgba(255, 255, 255, 0.527);
+        width: 6rem;
+        height: .4rem;
+        border-radius: 50px;
+    }
+    &::after{
+        content: "";
+        bottom: 0;
+        position: absolute;
+        left: 0;
+        background-color: white;
+        width: 3rem;
+        height: .4rem;
+        border-radius: 50px;
+    }
+    // Position of the see through title 
+    span{
+        position: absolute;
+        top: 15%;
+        left: 0;
+        font-size: 5rem;
+        opacity: 0.09;
+    }
+}

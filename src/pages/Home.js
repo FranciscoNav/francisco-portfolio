@@ -13,10 +13,10 @@ function Home() {
                     <span> Francisco Naveira</span>
                 </h1>
                 <p className="homepage-subtext">
-                    This will be a paragraph talking about who francisco is and how he is super cool.
-                    This will be a paragraph talking about who francisco is and how he is super cool.
-                    This will be a paragraph talking about who francisco is and how he is super cool.
-                    This will be a paragraph talking about who francisco is and how he is super cool.
+                    HOME This will be a paragraph talking about who francisco is and how he is super cool.
+                    HOME This will be a paragraph talking about who francisco is and how he is super cool.
+                    HOME This will be a paragraph talking about who francisco is and how he is super cool.
+                    HOME This will be a paragraph talking about who francisco is and how he is super cool.
                 </p>
                 <div className='icons'>
                     <Link className="icon-link">

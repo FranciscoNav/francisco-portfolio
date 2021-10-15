@@ -37,7 +37,6 @@ function App() {
             <Route path='/portfolio' exact>
               <Portfolio/>
             </Route>
-
           </Switch>
         </div>
       </div>

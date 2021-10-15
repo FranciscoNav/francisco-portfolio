@@ -3,7 +3,7 @@ import {faFacebook, faGithub, faTwitter} from '@fortawesome/free-brands-svg-icon
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {Link} from 'react-router-dom';
 
-function HomePage() {
+function Home() {
 
     return (
         <div className="home-page">
@@ -34,6 +34,6 @@ function HomePage() {
     )
 }
 
-export default HomePage
+export default Home;
 
 

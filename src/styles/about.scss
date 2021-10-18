@@ -1,0 +1,49 @@
+.image-section{
+    display: flex;
+    margin-top: 4rem;
+
+    .img-dev{
+        width: 100%;
+        height: 50vh;
+        .img{
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+        }
+    }
+    .about-info{
+        margin-left: 2rem;
+        h4{
+            font-size: 2rem;
+        }
+        .about-text{
+            padding: 1rem 0;
+        }
+    }
+}
+
+.about-details{
+    display: flex;
+    p{
+        padding: .3rem 0;
+    }
+    .about-details-left{
+        // font-weight: bold;
+    }
+    .about-details-right{
+        margin-left: 1rem;
+    }
+}
+
+.resume-btn{
+    padding: .5rem 1rem;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+}

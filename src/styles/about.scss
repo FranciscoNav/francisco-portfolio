@@ -1,7 +1,7 @@
 .image-section{
     display: flex;
     margin-top: 4rem;
-
+    margin-bottom: 4rem;
     .img-dev{
         width: 100%;
         height: 50vh;
@@ -39,7 +39,8 @@
     padding: .5rem 1rem;
     background-color: rgb(255, 255, 255);
     outline: none;
-    border: none;
+    border:inset;
+    // border-radius: 20%;
     font-family: inherit;
     font-size: inherit;
     color: rgb(0, 0, 0);

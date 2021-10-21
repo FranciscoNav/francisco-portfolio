@@ -11,6 +11,19 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(48, 96, 145);
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+}
+
 body{
     color: #ffffff;
     font-family: 'M PLUS Rounded 1c', sans-serif;

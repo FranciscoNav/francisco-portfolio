@@ -14,7 +14,7 @@ function About() {
             <div className='skillsSection-container'>
                 <SkillsSection skill={'Javascript'} progress={'75%'}/>
                 <SkillsSection skill={'React'} progress={'80%'}/>
-                <SkillsSection skill={'Ruby on rails'} progress={'60%'}/>
+                <SkillsSection skill={'Ruby on rails'} progress={'65%'}/>
                 <SkillsSection skill={'Ruby'} progress={'60%'}/>
                 <SkillsSection skill={'SQL'} progress={'40%'}/>
                 <SkillsSection skill={'HTML'} progress={'55%'}/>

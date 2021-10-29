@@ -1,6 +1,5 @@
 import AboutPic from '../img/AboutPic.jpg';
 
-
 export default[
     {
         id:1,

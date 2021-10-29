@@ -1,22 +1,27 @@
 import React from 'react';
 import BlogsInfo from '../components/BlogsInfo';
-
+import Title from '../components/About_Components/Title';
 
 function Blogs() {
     return (
-        <div className='BlogsPage'>
-            {
-                BlogsInfo.map(b => {
-                    return <div className='blog' key={b.id}>
-                        <div className='clog-content'>
-                            <img src={b.image}/>
-                            <a href={b.link} className='blog-link'>
-                                {b.title}
-                            </a>
+        <div>
+            <div className='blog-title'>
+                <Title title={'Blogs'} span={'Blogs'}/>
+            </div>
+            <div className='BlogsPage'>
+                {
+                    BlogsInfo.map(b => {
+                        return <div className='blog' key={b.id}>
+                            <div className='blog-content'>
+                                <img src={b.image} alt=''/>
+                                <a href={b.link} className='blog-link'>
+                                    {b.title}
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                })
-            }
+                    })
+                }
+            </div>
         </div>
     )
 }

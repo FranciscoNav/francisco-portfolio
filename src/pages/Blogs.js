@@ -1,6 +1,6 @@
 import React from 'react';
 import BlogsInfo from '../components/BlogsInfo';
-import Title from '../components/About_Components/Title';
+import Title from '../components/Title';
 
 function Blogs() {
     return (

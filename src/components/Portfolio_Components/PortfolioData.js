@@ -1,6 +1,6 @@
-import Karro from "../img/Karro.JPG";
-import DreamGarage from '../img/DreamGarage.jpg';
-import SecretPost from '../img/SecretPost.jpg';
+import Karro from "../../img/Karro.JPG";
+import DreamGarage from '../../img/DreamGarage.JPG';
+import SecretPost from '../../img/SecretPost.JPG';
 
 export default[
     {
@@ -10,7 +10,8 @@ export default[
         youTubeLink:'',
         icon1:'G',
         icon2:'Y',
-        title: 'Karro'
+        title: 'Karro',
+        category:'React'
     },
     {
         id:2,
@@ -19,7 +20,8 @@ export default[
         youTubeLink:'',
         icon1:'G',
         icon2:'Y',
-        title: 'Digital-Secrets'
+        title: 'Digital-Secrets',
+        category:'React'
     },
     {
         id:3,
@@ -28,6 +30,7 @@ export default[
         youTubeLink:'',
         icon1:'G',
         icon2:'Y',
-        title: 'Dream-Garage'
+        title: 'Dream-Garage',
+        category:'React'
     }
 ]

@@ -14,9 +14,9 @@ function Portfolio() {
             <div>
                 <Title title={'Portfolio'} span={'Portfolio'}/> 
             </div>
-            <div className='portfolios'>
-                <Categories/>
-                <MenuItems/>
+            <div className='portfolios-data'>
+                <Categories categories={categories}/>
+                <MenuItems menuItems={menuItems}/>
             </div>
         </div>
         

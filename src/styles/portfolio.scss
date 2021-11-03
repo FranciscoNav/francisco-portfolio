@@ -1,0 +1,19 @@
+.PortfolioPage{
+
+}
+
+.portfolio-projects{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    .project{
+        .image-data{
+            img{
+                width: 100%;
+                height: 40vh;
+                object-fit: cover;
+            }
+        }
+    }
+}

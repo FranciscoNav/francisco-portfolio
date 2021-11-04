@@ -9,13 +9,20 @@ function Portfolio() {
     const [categories, setcategories]= useState(null);
     const [menuItems, setmenuItems]= useState(PortfolioData);
 
+    const filterFunc = (searchCategory) =>{
+        const filterData = PortfolioData.filter((item) =>{
+            return item.category === searchCategory;
+        })
+        setmenuItems(filterData);
+    }
+
     return (
         <div className="PortfolioPage">
             <div>
                 <Title title={'Portfolio'} span={'Portfolio'}/> 
             </div>
             <div className='portfolios-data'>
-                <Categories categories={categories}/>
+                <Categories filterFunc={filterFunc} categories={categories}/>
                 <MenuItems menuItems={menuItems}/>
             </div>
         </div>

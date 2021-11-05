@@ -13,7 +13,12 @@ function App() {
   return (
     <div className="App">
       <div className="side-bar">
-        <NavBar></NavBar>
+        <NavBar/>
+      </div>
+      <div className="nav-button">
+        <div className="lines-1"></div>
+        <div className="lines-2"></div>
+        <div className="lines-3"></div>
       </div>
       <div className="main-content">
         <div className='content'>

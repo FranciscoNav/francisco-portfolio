@@ -4,6 +4,9 @@
         height: 100vh;
         background-color: rgb(48, 96, 145);
         position: fixed;
+        @media screen and (max-width: 1000px){
+            transform: translateX(-100%);
+        }
     }
 
     .main-content{
@@ -15,6 +18,10 @@
         position: relative;
         .content{
             margin: 5rem 15rem;
+        }
+        @media screen and (max-width: 1000px){
+            margin-left: 0;
+            width: 100%;
         }
     }
 }

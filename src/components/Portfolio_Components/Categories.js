@@ -4,11 +4,10 @@ import {NavLink} from 'react-router-dom';
 function Categories({filterFunc, categories}) {
     
     return (
-        <div>
+        <div className='cat-buttons'>
             {
                 categories.map((cat, i)=>{
-                    return <button key={i} onClick={() => filterFunc(cat)}>{cat}</button>
-                    // return <NavLink key={i} onClick={() => filterFunc(cat)}>{cat}</NavLink>
+                    return <button key={i}  type='button' className="cat-button" onClick={() => filterFunc(cat)}>{cat}</button>
                 })
             }
         </div>

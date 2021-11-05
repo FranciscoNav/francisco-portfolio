@@ -75,3 +75,32 @@
         }
     }
 }
+
+.cat-button{
+    padding: .5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.726);
+    // border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    margin-bottom: 1rem;
+    transition: all .3s ease-in-out;
+    &:not(:last-child){
+        margin-right: 1rem;
+    }
+    &:hover{
+        background-color: white;
+    }
+    &:focus{
+        background-color: white;
+    }
+}
+
+.cat-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 9rem;
+    flex-wrap: wrap;
+}

@@ -7,12 +7,15 @@ import { useState } from 'react';
 
 const allCategories = ['All', ...new Set(PortfolioData.map(item => item.category))];
 
-
 function Portfolio() {
     const [categories, setcategories]= useState(allCategories);
     const [menuItems, setmenuItems]= useState(PortfolioData);
 
     const filterFunc = (searchCategory) =>{
+        if(searchCategory ==="All"){
+            setmenuItems(PortfolioData)
+            return;
+        }
         const filterData = PortfolioData.filter((item) =>{
             return item.category === searchCategory;
         })

@@ -11,7 +11,7 @@ export default[
         icon1:'GitHub',
         icon2:'Demo',
         title: 'Karro',
-        category:'React'
+        category:'Rails & React'
     },
     {
         id:2,
@@ -21,7 +21,7 @@ export default[
         icon1:'GitHub',
         icon2:'Demo',
         title: 'Digital-Secrets',
-        category:'React'
+        category:'Rails & React'
     },
     {
         id:3,

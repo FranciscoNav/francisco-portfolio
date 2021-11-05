@@ -5,8 +5,11 @@ import MenuItems from '../components/Portfolio_Components/MenuItems';
 import PortfolioData from '../components/Portfolio_Components/PortfolioData';
 import { useState } from 'react';
 
+const allCategories = ['All', ...new Set(PortfolioData.map(item => item.category))];
+
+
 function Portfolio() {
-    const [categories, setcategories]= useState(null);
+    const [categories, setcategories]= useState(allCategories);
     const [menuItems, setmenuItems]= useState(PortfolioData);
 
     const filterFunc = (searchCategory) =>{

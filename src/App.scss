@@ -41,3 +41,16 @@ span{
         font-size: 70%;
     }
 }
+@media screen and (max-width: 700px){
+    html{
+        font-size: 90%;
+    }
+}
+@media screen and (max-width: 480px){
+    h2{
+        font-size: 60%;
+    }
+    h3{
+        font-size: 70%;
+    }
+}

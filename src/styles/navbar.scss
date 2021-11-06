@@ -74,33 +74,3 @@
     background-color: #70acdd;
 }
 
-.nav-button{
-    position: absolute;
-    z-index: 10;
-    right: 10%;
-    top: 10%;
-    width: 4rem;
-    height: 4rem;
-    // display: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    .line-1, .line-2, .line-3{
-        height: .4rem;
-        width: 100%;
-        background-color: rgb(48, 96, 145);
-        pointer-events: none;
-        display: none;
-        border-radius: 20px;
-        &:not(:last-child){
-            margin-bottom: .5rem;
-        }
-    }
-    @media screen and (max-width: 1000px){
-        display: block;
-        .line-1, .line-2, .line-3{
-            display: block;
-        }
-    }
-}

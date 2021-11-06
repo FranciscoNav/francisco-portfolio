@@ -35,3 +35,9 @@ body{
 span{
     color: rgb(108, 116, 124);
 }
+
+@media screen and (max-width: 411px){
+    html{
+        font-size: 70%;
+    }
+}

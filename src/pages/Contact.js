@@ -1,10 +1,11 @@
 import React from 'react';
+import Title from '../components/Title';
 
 function Contact() {
     
     return (
         <div className='contact-page'>
-            <h1>Contact Page</h1>
+            <Title title={'Contact'} span={'Contact'}/>
             <p>Add form here</p>
         </div>
     )

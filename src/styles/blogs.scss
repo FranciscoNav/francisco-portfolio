@@ -7,15 +7,16 @@
         grid-gap: 2rem;
     }
     .blog{
-        background-color: rgb(48, 96, 145);
+        background-color: rgb(8, 35, 61);
         width: 100%;
-        // border-radius: 1%;
+        border-radius: 1%;
         padding: 1rem;
         overflow: hidden;
         .blog-content{
             overflow: hidden;
             padding-bottom: 2rem;
             img{
+                border-radius: 1%;
                 width: 100%;
                 transition: all .4s ease-in-out;
                 &:hover{
@@ -24,13 +25,13 @@
                 padding-bottom: 2rem;
             }
             .blog-link{
-                color: inherit;
+                color: white;
                 font-family: inherit;
                 text-decoration: none;
                 font-size: 2rem;
                 padding-bottom: 2rem;
                 &:hover{
-                    color: #70acdd;
+                    color: rgb(108, 124, 108);
                 }
             }
         }

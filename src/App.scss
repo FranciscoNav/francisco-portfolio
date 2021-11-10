@@ -18,22 +18,22 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-    background-color: rgb(48, 96, 145);
+    background-color: rgb(4, 22, 39);
     border-radius: 50px;
 }
 
 body::-webkit-scrollbar-track{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(108, 124, 108, 0.151);
 }
 
 body{
-    color: #ffffff;
+    color: rgb(108, 124, 108);
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 1.2rem;
 }
 
 span{
-    color: rgb(108, 116, 124);
+    color: #70acdd;
 }
 
 @media screen and (max-width: 411px){

@@ -35,7 +35,7 @@
         padding: .3rem 0;
     }
     .about-details-left{
-        // font-weight: bold;
+        font-weight: bold;
     }
     .about-details-right{
         margin-left: 1rem;
@@ -44,31 +44,20 @@
 
 .resume-btn{
     padding: .5rem 1rem;
-    background-color: rgb(255, 255, 255);
+    background-color: #70acdd;
     outline: none;
     border:inset;
-    // border-radius: 20%;
     font-family: inherit;
     font-size: inherit;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     cursor: pointer;
     letter-spacing: 2px;
     margin-top: 1rem;
     position: relative;
-   
-    &::after{
-        position: absolute;
-        content: "";
-        width: 0;
-        height: .3rem;
-        left: 0;
-        bottom: 0;
-        background-color: rgb(48, 96, 145);
-        transition: all 0.4s ease-in-out;
-    }
-    &:hover::after{
-        width: 100%;
+
+    &:hover{
+        background-color: #70acddbe;
     }
 }
 

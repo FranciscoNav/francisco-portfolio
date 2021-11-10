@@ -50,9 +50,8 @@
                         padding: 1rem;
                         text-decoration: none;
                         font-family: inherit;
-                        // border-radius: 100%;
                         border-radius: 15px;
-                        background-color: rgb(48, 96, 145);
+                        background-color: rgb(8, 35, 61);
                         color: white;
                         &:not(:last-child){
                             margin-right: 2rem;
@@ -70,8 +69,9 @@
         }
         
         h5{
+            color: #70acdd;
             font-size: 1.7rem;
-            font-weight: 400;
+            font-weight: 500;
             transition: all .3s ease-in-out;
             &:hover{
                 color: rgb(108, 116, 124);
@@ -83,22 +83,24 @@
 
 .cat-button{
     padding: .5rem 1rem;
-    background-color: rgba(255, 255, 255, 0.726);
+    background-color: rgb(255, 255, 255);
     // border: none;
+    border-radius: 5%;
     outline: none;
     cursor: pointer;
     font-size: inherit;
     font-family: inherit;
+    // font-weight: bold;
     margin-bottom: 1rem;
     transition: all .3s ease-in-out;
     &:not(:last-child){
         margin-right: 1rem;
     }
     &:hover{
-        background-color: white;
+        background-color: #70acdd;
     }
     &:focus{
-        background-color: white;
+        background-color: #70acdd;
     }
 }
 

@@ -1,5 +1,5 @@
 .skills-section{
-    // margin: .6rem 0;
+    margin: .5rem 0;
 }
 
 .skills-container{
@@ -13,7 +13,7 @@
         display: flex;
         align-items: center;
         .skill-text{
-        
+            // color: lawngreen;
         }
 
         .skill-progress{
@@ -23,11 +23,11 @@
                 height: .5rem;
                 // background-color: rgb(255, 255, 255);
                 margin-left: 1rem;
-                background-color: rgba(255, 255, 255, 0.432);
+                background-color: #70acdd5d;
                 position: relative;
                 .inner-progress{
                     position: absolute;
-                    background-color: white;
+                    background-color: #70acdd;
                     height: 100%;
                     bottom: 0;
                     left: 0;

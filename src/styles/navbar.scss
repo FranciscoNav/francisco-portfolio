@@ -12,8 +12,7 @@
             width: 100%;
             text-align: center;
             margin-top: 1rem;
-            border-bottom: 1px solid #70acdd;
-     
+            border-bottom: 1px solid rgb(4, 22, 39);
             img{
                 width: 70%;
                 border-radius: 100%;
@@ -43,7 +42,7 @@
                     left: 0;
                     width: .4rem;
                     height: 100%;
-                    background-color: #70acdd44;
+                    background-color: #ffffff44;
                     transform-origin: bottom;
                     transform: scale(0);
                     overflow-x: hidden;
@@ -59,7 +58,7 @@
 
         .footer{
             width: 100%;
-            border-top: 1px solid #70acdd;
+            border-top: 1px solid rgb(4, 22, 39);
 
             p{
                 text-align: center;
@@ -71,6 +70,6 @@
 }
 
 .nav-active{
-    background-color: #70acdd;
+    background-color: #ffffff;
 }
 

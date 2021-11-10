@@ -2,7 +2,7 @@
     .side-bar{
         width: 16%;
         height: 100vh;
-        background-color: rgb(48, 96, 145);
+        background-color: rgb(4, 22, 39);
         position: fixed;
         z-index: 11;
         // border-right: 1px solid black;
@@ -26,7 +26,7 @@
     .main-content{
         width: 84%;
         margin-left: 16%;
-        background-color: #70acdd;
+        background-color: #ffffff;
         min-height: 100vh;
         display: grid;
         position: relative;
@@ -64,7 +64,7 @@
     .line-1, .line-2, .line-3{
         height: .4rem;
         width: 100%;
-        background-color: rgb(48, 96, 145);
+        background-color: rgb(4, 22, 39);
         pointer-events: none;
         display: none;
         border-radius: 20px;

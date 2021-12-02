@@ -38,26 +38,38 @@
     .about-details-left{
         font-weight: bold;
         color: rgb(108, 124, 108);
+        margin-bottom: 1rem;
     }
     .about-details-right{
         margin-left: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
 .resume-btn{
-    padding: .5rem 1rem;
+    // padding: .5rem 1rem;
+    // background-color: #70acdd;
+    // outline: none;
+    // border:inset;
+    // font-family: inherit;
+    // font-size: inherit;
+    // color: rgb(255, 255, 255);
+    // text-transform: uppercase;
+    // cursor: pointer;
+    // letter-spacing: 2px;
+    // margin-top: 1rem;
+    // position: relative;
+
     background-color: #70acdd;
-    outline: none;
-    border:inset;
+    color: white;
+    padding: .5rem 1rem;
     font-family: inherit;
     font-size: inherit;
-    color: rgb(255, 255, 255);
     text-transform: uppercase;
-    cursor: pointer;
+    text-decoration: none;
     letter-spacing: 2px;
-    margin-top: 1rem;
+    border-radius: 5px;
     position: relative;
-
     &:hover{
         background-color: #70acddbe;
     }

@@ -1,7 +1,9 @@
 import React from 'react';
 import AboutPic from '../../img/AboutPic.jpg'
+import FranciscoNaveiraResume from '../../PDF/FranciscoNaveiraResume.pdf'
 
 function ImageSection() {
+
     return (
         <div className='image-section'>
             <div className='img-dev'>
@@ -29,7 +31,7 @@ function ImageSection() {
                         <p>: Elon, North Carolina</p>
                     </div>
                 </div>
-                <button className='resume-btn'>Download Resume</button>
+                <a className="resume-btn" href={FranciscoNaveiraResume} download="Francisco Naveira Resume">Download Resume</a>
             </div>
         </div>
     )

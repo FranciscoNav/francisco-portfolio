@@ -12,17 +12,17 @@
         border-radius: 1%;
         padding: 1rem;
         overflow: hidden;
+        transition: all .5s ease-in-out;
+        &:hover{
+            transform: scale(1.04);
+        }
         .blog-content{
             overflow: hidden;
             padding-bottom: 2rem;
             img{
                 border-radius: 1%;
                 width: 100%;
-                transition: all .4s ease-in-out;
-                &:hover{
-                    transform: scale(1.1);
-                }
-                padding-bottom: 2rem;
+                padding-bottom: 1rem;
             }
             .blog-link{
                 color: white;

@@ -32,7 +32,6 @@ function Portfolio() {
                 <MenuItems menuItems={menuItems}/>
             </div>
         </div>
-        
     )
 }
 

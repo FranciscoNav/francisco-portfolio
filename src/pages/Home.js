@@ -1,7 +1,6 @@
 import React from 'react'
-import {faFacebook, faGithub, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faTwitter, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {Link} from 'react-router-dom';
 
 function Home() {
 
@@ -19,15 +18,15 @@ function Home() {
                     HOME This will be a paragraph talking about who francisco is and how he is super cool.
                 </p>
                 <div className='icons'>
-                    <Link className="icon-link">
-                        <FontAwesomeIcon icon={faFacebook} className="icon fb"/>
-                    </Link>
-                    <Link className="icon-link">
+                    <a className="icon-link" href="https://www.linkedin.com/in/francisco-naveira/">
+                        <FontAwesomeIcon icon={faLinkedin} className="icon fb"/>
+                    </a>
+                    <a className="icon-link" href="https://github.com/FranciscoNav">
                         <FontAwesomeIcon icon={faGithub} className="icon git"/>
-                    </Link>
-                    <Link className="icon-link">
+                    </a>
+                    <a className="icon-link" href="">
                         <FontAwesomeIcon icon={faTwitter} className="icon tw"/>
-                    </Link>
+                    </a>
                 </div>
             </header>
         </div>

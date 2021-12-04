@@ -6,10 +6,12 @@ function ImageSection() {
 
     return (
         <div className='image-section'>
+            
             <div className='img-dev'>
                 {/* Replace this with a better picture later */}
                 <img src={AboutPic} alt=''/>
             </div>
+
             <div className='about-info'>
                 <h4>I am <span>Francisco Naveira</span></h4>
                 <p className='about-text'>
@@ -33,6 +35,7 @@ function ImageSection() {
                 </div>
                 <a className="resume-btn" href={FranciscoNaveiraResume} download="Francisco Naveira Resume">Download Resume</a>
             </div>
+
         </div>
     )
 }

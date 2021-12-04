@@ -17,6 +17,7 @@ function Home() {
                     HOME This will be a paragraph talking about who francisco is and how he is super cool.
                     HOME This will be a paragraph talking about who francisco is and how he is super cool.
                 </p>
+
                 <div className='icons'>
                     <a className="icon-link" href="https://www.linkedin.com/in/francisco-naveira/">
                         <FontAwesomeIcon icon={faLinkedin} className="icon fb"/>
@@ -28,6 +29,7 @@ function Home() {
                         <FontAwesomeIcon icon={faTwitter} className="icon tw"/>
                     </a>
                 </div>
+                
             </header>
         </div>
     )

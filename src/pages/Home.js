@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Home() {
 
     return (
-        <div className="home-page">
+        <div className="home-page" id="home">
             <header className='hero'>
                 <h1 className='hero-text'>
                     Hi. I am

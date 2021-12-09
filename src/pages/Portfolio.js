@@ -23,7 +23,7 @@ function Portfolio() {
     }
 
     return (
-        <div className="PortfolioPage">
+        <div className="PortfolioPage" id="portfolio">
             <div>
                 <Title title={'Portfolio'} span={'Portfolio'}/> 
             </div>

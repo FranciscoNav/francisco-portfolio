@@ -4,7 +4,7 @@ import Title from '../components/Title';
 function Contact() {
     
     return (
-        <div className='contact-page'>
+        <div className='contact-page' id="contact">
             <Title title={'Contact'} span={'Contact'}/>
             <br/>
             <p>If you would like to contact me, or if you found a bug on the site, please fill out the form below. Thank you!</p>

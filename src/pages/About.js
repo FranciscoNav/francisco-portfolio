@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function About() {
 
     return (
-        <div className="about-page">
+        <div className="about-page" id="about">
             <Title title={'About'} span={'About'}/>
             <ImageSection/>
             <Title title={'My Skills'} span={'My Skills'}/>

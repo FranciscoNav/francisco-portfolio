@@ -11,7 +11,8 @@ export default[
         icon1:'GitHub',
         icon2:'Demo',
         title: 'Karro',
-        category:'Rails & React'
+        category:'Rails & React',
+        summary:"Karro is a car budgeting and expense tracking web application. It has a React.js front-end and a Ruby on Rails Back-end. This was my Capstone project which ultimately help me graduate from Flatiron School."
     },
     {
         id:2,
@@ -20,8 +21,9 @@ export default[
         youTubeLink:'',
         icon1:'GitHub',
         icon2:'Demo',
-        title: 'Digital-Secrets',
-        category:'Rails & React'
+        title: 'Digital Secrets',
+        category:'Rails & React',
+        summary:"Digital-Secrets was my Phase 4 project from Flatiron School. It has a React.js front-end and a Ruby on Rails Back-end. Its purpose is to digitalize a user's secrets and keep them password protected. Perfect for secret recipes, notes, or a diary."
     },
     {
         id:3,
@@ -30,7 +32,8 @@ export default[
         youTubeLink:'https://youtu.be/MdThca-IqLg',
         icon1:'GitHub',
         icon2:'Demo',
-        title: 'Dream-Garage',
-        category:'React'
+        title: 'Dream Garage',
+        category:'React',
+        summary:"Dream Garage is a fun web application that lets users fill up a digital garage with all their dream cars. It will then calculate the cost of all the cars in that garage. I made this for the Phase 2 project for Flatiron School, and it is made entirely from React."
     }
 ]

@@ -6,6 +6,8 @@ Hello and welcome to my (first) portfolio website. The purpose of this website i
 ## Requirements
 - NodeJS (v14 or higher)
 - npm
+- React (v17 or higher)
+- Sass 
 
 ## Setup
 **Fork and clone this repository**

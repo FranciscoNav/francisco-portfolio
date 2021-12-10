@@ -18,7 +18,7 @@ function MenuItems({menuItems}) {
                         <h5>
                             {item.title}
                         </h5>
-                        <p>Placeholder for paragraph, Placeholder for paragraph, Placeholder for paragraph</p>
+                        <p>{item.summary}</p>
                     </div>
                 })
             }

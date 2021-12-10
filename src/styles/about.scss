@@ -21,11 +21,23 @@
             padding: 1rem 0;
         }
     }
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1669px) {
         flex-direction: column;
         .about-info{
             margin-left: 0;
             margin-top: 1rem;
+        }
+    }
+    @media screen and (max-width: 667px){
+        flex-direction: column;
+        .img-dev{
+            width: 10%;
+            height: 61vh;
+            .img{
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+            }
         }
     }
 }

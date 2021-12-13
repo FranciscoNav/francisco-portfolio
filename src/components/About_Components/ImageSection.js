@@ -14,9 +14,9 @@ function ImageSection() {
             <div className='about-info'>
                 <h4>I am <span>Francisco Naveira</span></h4>
                 <p className='about-text'>
-                    About This will be a paragraph talking about who francisco is and how he is super cool.
-                    About This will be a paragraph talking about who francisco is and how he is super cool.
-                    About This will be a paragraph talking about who francisco is and how he is super cool.
+                I am a Full Stack Software Engineer specializing in a variety of languages (see below). 
+                I just graduated from the Flatiron School Bootcamp, and I am currently looking for a new job opportunity. 
+                Currently, I live in North Carolina, but I am willing to relocate.
                 </p>   
                 <div className='about-details'>
                     <div className="about-details-left">

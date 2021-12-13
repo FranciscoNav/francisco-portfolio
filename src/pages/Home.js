@@ -8,11 +8,11 @@ function Home() {
         <div className="home-page" id="home">
             <header className='hero'>
                 <h1 className='hero-text'>
-                    Hi. I am
+                    Hi! I am
                     <span> Francisco Naveira</span>
                 </h1>
                 <p className="homepage-subtext">
-                    I am a  Full Stack Software Engineer specializing in React, Ruby on Rails, JavaScript, and SQL. 
+                    I am a Full Stack Software Engineer specializing in React, Ruby on Rails, JavaScript, and SQL. 
                     Before becoming a web developer, I worked for 4+ years as an accountant. Although I enjoyed accounting, 
                     I found myself wanting to work in an industry whose primary focus was looking towards the future rather than analyzing the past. 
                     After a year of thorough career research, I finally took the plunge and attended Flatiron School to become a Software Engineer.
@@ -20,7 +20,7 @@ function Home() {
                 <br></br>
                 <p>
                     I’m excited about any opportunity where I can work on a team to develop innovative new projects. 
-                    If you’re interested in seeing more of my work, navigate to the portfolio portion of this website. 
+                    If you’re interested in seeing more of my work, navigate to the portfolio portion of this website. Enjoy!
                 </p>
 
                 <div className='icons'>

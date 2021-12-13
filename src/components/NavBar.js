@@ -32,7 +32,7 @@ function NavBar() {
 
                 </ul>
                 <footer className="footer">
-                    <p>Francisco Naveira</p>
+                    <p>Created by Francisco Naveira</p>
                 </footer>
             </nav>
         </div>

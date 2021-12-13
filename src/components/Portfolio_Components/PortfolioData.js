@@ -18,7 +18,7 @@ export default[
         id:2,
         image: SecretPost,
         link: 'https://github.com/FranciscoNav/digital-secrets',
-        youTubeLink:'',
+        youTubeLink:'https://www.youtube.com/watch?v=X2KLQTny3Go',
         icon1:'GitHub',
         icon2:'Demo',
         title: 'Digital Secrets',

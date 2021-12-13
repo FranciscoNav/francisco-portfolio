@@ -8,7 +8,6 @@ function ImageSection() {
         <div className='image-section'>
             
             <div className='img-dev'>
-                {/* Replace this with a better picture later */}
                 <img src={AboutPic} alt=''/>
             </div>
 

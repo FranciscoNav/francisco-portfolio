@@ -16,7 +16,7 @@ function ImageSection() {
                 <p className='about-text'>
                 I am a Full Stack Software Engineer specializing in a variety of languages (see below). 
                 I just graduated from the Flatiron School Bootcamp, and I am currently looking for a new job opportunity. 
-                Currently, I live in North Carolina, but I am willing to relocate.
+                
                 </p>   
                 <div className='about-details'>
                     <div className="about-details-left">

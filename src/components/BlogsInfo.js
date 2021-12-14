@@ -2,8 +2,7 @@ import HooksBlogPic from '../img/HooksBlogPic.JPG'
 import BCryptBlogPic from "../img/BCryptBlogPic.JPG";
 import NeatBlogPic from '../img/NeatBlogPic.JPG';
 
-
-export default[
+const BlogInfo =[
     {
         id:1,
         image: HooksBlogPic,
@@ -23,3 +22,5 @@ export default[
         title: 'What is BCrypt and why is it important?'
     }
 ]
+
+export default BlogInfo;

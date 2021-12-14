@@ -24,13 +24,13 @@ function Home() {
                 </p>
 
                 <div className='icons'>
-                    <a className="icon-link" href="https://www.linkedin.com/in/francisco-naveira/" target="_blank">
+                    <a className="icon-link" href="https://www.linkedin.com/in/francisco-naveira/" target="_blank" rel="nooperner noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} className="icon fb"/>
                     </a>
-                    <a className="icon-link" href="https://github.com/FranciscoNav" target="_blank">
+                    <a className="icon-link" href="https://github.com/FranciscoNav" target="_blank" rel="nooperner noreferrer">
                         <FontAwesomeIcon icon={faGithub} className="icon git"/>
                     </a>
-                    <a className="icon-link" href="https://twitter.com/Cisco_Naveira" target="_blank">
+                    <a className="icon-link" href="https://twitter.com/Cisco_Naveira" target="_blank" rel="nooperner noreferrer">
                         <FontAwesomeIcon icon={faTwitter} className="icon tw"/>
                     </a>
                 </div>

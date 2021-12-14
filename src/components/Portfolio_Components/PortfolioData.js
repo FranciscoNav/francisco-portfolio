@@ -2,7 +2,7 @@ import Karro from "../../img/Karro.JPG";
 import DreamGarage from '../../img/DreamGarage.JPG';
 import SecretPost from '../../img/SecretPost.JPG';
 
-export default[
+const PortfolioData =[
     {
         id:1,
         image: Karro,
@@ -37,3 +37,5 @@ export default[
         summary:"Dream Garage is a fun web application that lets users fill up a digital garage with all their dream cars. It will then calculate the cost of all the cars in that garage. I made this for the Phase 2 project for Flatiron School, and it is made entirely from React."
     }
 ]
+
+export default  PortfolioData;

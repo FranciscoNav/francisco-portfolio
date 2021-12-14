@@ -7,7 +7,7 @@ import Blogs from './pages/Blogs';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import { useState } from 'react/cjs/react.development';
-import {Switch, Router, Route} from 'react-router-dom';  
+import {Switch, Route} from 'react-router-dom';  
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);

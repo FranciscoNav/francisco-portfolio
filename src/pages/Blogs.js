@@ -14,7 +14,7 @@ function Blogs() {
                         return <div className='blog' key={b.id}>
                             <div className='blog-content'>
                                 <img src={b.image} alt=''/>
-                                <a href={b.link} className='blog-link' target="_blank">
+                                <a href={b.link} className='blog-link' target="_blank" rel="nooperner noreferrer">
                                     {b.title}
                                 </a>
                             </div>

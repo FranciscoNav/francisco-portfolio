@@ -22,3 +22,7 @@ Additional setup notes:
 - `npm start : run the frontend on [http://localhost:3000](http://localhost:3000)
 
 ## Website Link
+- Deployment coming soon
+
+## Demo
+https://www.youtube.com/watch?v=KUCbfLmDTPY 
